@@ -1,0 +1,140 @@
+body{
+    padding: 100px 400px 100px 400px;
+    font-family: 'Raleway', sans-serif;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    color: black;
+}
+
+#addlist{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+#task{
+    display: flex;
+    justify-content: space-between;
+}
+.tasks{
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.tasks h2{
+    color: tomato;
+}
+
+.line-through{
+    color: red;
+    text-decoration: line-through;
+    font-weight: 900;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    margin-left: 410px;
+    position: relative;
+    
+}
+.container h1{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    font-size: 50px;
+}
+.container h1::before,h1::after{
+    content:" ";
+    flex: 1 1;
+    border-bottom: 2px solid black;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#tasks-paris{
+    width: 350px;
+    height:350px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px lightgray;
+    margin-left: 120px;
+    font-size: 20px;
+    
+}
+
+#back-btn{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#plus-icon{
+    position: absolute;
+    bottom: 15px;
+    right: 140px;
+    font-size: 30px;
+}
+
+.bg1{
+    background-image: url(./images/Screenshot.png);
+}
+.bg2{
+    background-image: url(./images/Screenshot2.png);
+}
+.bgblur{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    height: 100%;
+    
+}
+
+.container2{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    width: 350px;
+    position: absolute;
+    top: 38%;
+    left: 39%;
+    box-shadow: 10px 10px 10px lightgray;
+    text-align: center;
+    color: tomato;
+    z-index: 2;
+    background-color: white;
+}
+
+#add-in{
+    width: 250px;
+    height: 30px;
+    border-color: tomato;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+#add-btn{
+    display: inline-flex;
+    width: 80px;
+    height: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: tomato;
+    border-radius: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 7px ;
+}
